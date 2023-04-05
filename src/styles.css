@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border-left: 5px solid lightgray;
+  min-height: 100%;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+article {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 1rem 2rem;
+  font-weight: 200;
+  color: tomato;
+}
+
+h2 {
+  font-size: 30px;
+  padding: 1rem 2rem;
+  font-weight: 100;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  color: lightgray;
+}
+
+ul,
+li {
+  /* color: lightgray; don't know why this won't work. */
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+/* .footer-nav > li a {
+  color: tomato;
+  text-decoration: none;
+} */
+
+article {
+  margin-bottom: 4em;
+  border-bottom: 1px solid lightgray;
+  padding: 2rem 2rem;
+}
+
+article > a {
+  color: tomato;
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  color: lightgrey;
+  padding: 1rem 2rem;
+}
+
+article p::first-letter {
+  font-size: 170px;
+  color: lightgray;
+  float: left;
+  padding: 6px 3px;
+  margin-right: 6px;
+  border-radius: 2px;
+  line-height: 0.67;
+  font-weight: 100;
+}
+
+.title {
+  font-size: 25pt;
+  font-weight: 100;
+  color: black;
+}
+
+.time {
+  color: lightgray;
+  font-weight: 150;
+  font-size: 27px;
+}
